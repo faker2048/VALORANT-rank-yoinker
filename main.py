@@ -84,7 +84,7 @@ try:
             os.system('cls')
     except Exception as e:
         print("Something went wrong while running configurator!")
-        log(f"configurator encountered an error")
+        log("configurator encountered an error")
         log(str(traceback.format_exc()))
         input("press enter to exit...\n")
         os._exit(1)
